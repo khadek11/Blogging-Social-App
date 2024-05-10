@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>BloggerApp</title>
-    <meta name="" content="Group12-Blogging Social App">
+    <title>Twelve</title>
+    <meta name="social app" content="Group12-Blogging Social App">
     <meta name="description" content="This is a blogging social app to allow users to react to">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/blogger_355986.png" type="image/png">
-</head> 
+</head>
 
-<body
+<body>
     <header class="header">
-   <div class="header__div1">
+    <div class="header__div1">
     <div class="header__a">
-        <a href="#" class="home" id="home"><span>Blogging.com</span></a>
+        <a href="#" class="home" id="home"><span>Twelve.com</span></a>
     </div>
     <div>
-        <button id="pages">pages</button>
-        <button id="signin" >SIGN IN</button>
+        <button id="pages">PAGES</button>
+        <button id="signin">SIGN IN</button>
         <button id="login">LOGIN</button>
         <button id="signout">SIGN OUT</button>
     </div>
@@ -27,41 +28,43 @@
 
     <!-- <div class="header_div2">
         <div>
-            <button id="profiles"></button>
+            <button id="menu"></button>
             <button id="notification"></button>
         </div>
         <div>
           <nav class="header__nav">
-            <a href="#topics">Topics</a>
+            <a href="#news">News</a>
+            <a href="#trending">Trending</a>
             <a href="#recents">Recents</a>
-            <a href="#trendings">Trendings</a>
             <a href="#favourites">Favourites</a>
-            <a href="#contactt">Contact</a>
-           <!--  <img src="./assets/images/author-1.png" width="48" height="48" alt="profle" class="profile-banner">*/
-           -->
+            <a href="#contact">Contact</a>
+            <img src="./assets/images/author-1.png" width="48" height="48" alt="profle" class="profile">*/
         </nav>
-        </div> -->
+        </div> 
     </div>
+     -->
+
     </header>
 
     <main class="main" id="main">
        <!--  <section class="searchbar">
-            <div class="search-form-container container" id="search-form-container">
+            <div class="search-form container" id="search-form">
         
-                    <form action="" class="form">
-                        <input class="form-input" type="text" placeholder="What are you looking for?">
-                            <button class="search-icon" id="search-icon"><img src="search.png" alt=""searchicon height="15" width="15"></button>
-                    </form>
-                   
+                   <form action="" class="form">
+                <input class="form-input" type="text" placeholder="Explore">
+                <button class="btn btn-form" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
         </section> -->
-       <section id="current-news" class="news">
+       <section id="news" class="news">
         <div>
-           <h2 class="news__h2">
+           <h2 class="newsh2">
                <span>LATEST NEWS</span>
            </h2>
-           </div>
+        </div>
 
-        <div class="breakingnews">
+        <div class="latestnews">
 
             <div class="firstnews">
                 <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
@@ -82,25 +85,23 @@
                 <div class="image-text"> 
                   <span>Corana Virus Outbreak</span>
                   <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
-              </div>
+                </div>
             </div>
                 
        </div>
        </section>
    
-        <!-- creating the trending section -->
-        <article id="trending">
+        <!-- creatirecents section -->
+        <section id="trending">
 
-
-            <!-- h2 element class -->
-            <h2 class="">Trending:</h2>
+            <h2 class="trendingh2">Trending:</h2>
 
             <!-- creating different posts in trending section -->
             <section class="grid-container">
 
                 <!-- post 1 -->
                 <div class="trending-articles">
-                    <h3 class="headline3">Travel Destinations</h3>
+                    <h3 class="headline">Travel Destinations</h3>
                     <span class="headline-description">Tokyo is the trending destination this year...</span>
                         <a href="posts.html">
                             <img src="img/trending_travel.jpg" alt="Travel" class="trending-photos">
@@ -144,7 +145,7 @@
                         <span>ARTSY</span>
                     </a>
                 
-                    <p class="travel-data">Want to make a masterpiece?<br>May 6th, 2024</p>
+                    <p class="data">Want to make a masterpiece?<br>May 6th, 2024</p>
                 </div>
 
                 <!-- post 5 -->`
@@ -159,66 +160,68 @@
                     <p class="data">Which book should I buy!<br>May 8th, 2024</p>
                 </div>
             </section>
-        </article>
+        </section>
 
-            <section>
+        
 
 
         <section id="recents">
 
-            <div class="recent-heading">
-                <span>Recent Posts</span>
-
+            <div >
+                <h2><span>Recent Posts</span></h2>
             </div>
 
 
-            <! ----recent blog container---->
-            <div class="blog-container">
+            <!-- recent blog container -->
+            <div class="recent-container">
 
-                <div class="blog-box">
-                    <div class="blog-img">
-                        <img src="img/tacos.png" alt="blog">
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
                     </div>
-                    <div class="blog-text">
+                    <div class="recent-text">
                         <span> 18 july web design</span>
-                        <a href="#" class="blog-title">best food looks 2024</a>
+                        <a href="#" class="recent-title">best food looks 2024</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
+                    </div>
+                    <div class="recent-text">
+                        <span> 18 july web design</span>
+                        <a href="#" class="recent-title">best food looks 2024</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
+                    </div>
+                    <div class="recent-text">
+                        <span> 18 july web design</span>
+                        <a href="#" class="recent-title">best food looks 2024</a>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
                     </div>
                 </div>
             </div>
+
         </section>
 
-
-        <section>
-            <h2>trending:</h2>
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </figure>
-        </section>
-        <section>
-
-            <h2>Featured:</h2>
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </figure>
-        </section>
     </main>
-    <footer id="footer" class="footer">
 
-        <div class=footer-item-1>
-        <a href="#" <h1>TWELVE</h1></a>
+    <footer id="footer" class="footer">
+        <div class="footercontainer">
+
+        <div class=footeritem1>
+        <a href="#"><h2>TWELVE</h2></a>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat animi, accusamus cumque officiis quasi voluptas velit obcaecati, dolorum ipsam dolores quia. Quae delectus neque dolore ipsum placeat nesciunt, ut ullam?</p>
     </div>
     
-    <div class="footer-item-2"><h2>Suggestions</h2>
+    <div class="suggestions"><h2>Suggestions</h2>
         <ul class="footer-list">
 
             <li><a href="#">Food</a></li>
@@ -234,7 +237,7 @@
     </div>
 
     <div class="company"><h2>Company</h2>
-    <ul>
+    <ul class="footer-list">
         <li><a href="#">Contact us</a></li>
 
         <li><a href="#">F.A.Q</a></li>
@@ -246,12 +249,12 @@
         <li><a href="#">Membership</a></li>
     </ul>
     </div>
-
-    <hr class="hr width">
+</div>
+    <hr class="hrwidth">
 
     <div class="social media">
         
-        <a href="#"><i class="fab fa-instagram logo"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
 
         <a href="#"><i class="fab fa-facebook"></i></a>
 
@@ -269,7 +272,7 @@
         </section>
 
 
-        <div class="center">
+        <div class="copyright">
         <p>Copyright &copy;Twelve</p>
         <p>All rights reserved</p>
         </div>

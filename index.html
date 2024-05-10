@@ -3,58 +3,285 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+
+    <title>Twelve</title>
+    <meta name="social app" content="Group12-Blogging Social App">
+    <meta name="description" content="This is a blogging social app to allow users to react to">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/blogger_355986.png" type="image/png">
 </head>
+
 <body>
-    <header id="header-el" class="header">
-        <h1 id="h1-el" class="h1">My Blogs</h1>
-        <nav id="nav-el" class="nav">
-            <ul id="ul-el">
-                <li>Sign Up</li>
-                <li>Log In</li>
-            </ul>
+    <header class="header">
+    <div class="header-div1">
+    <div class="header-a">
+        <a href="#" class="home" id="home"><span>Twelve.com</span></a>
+    </div>
+    <div>
+        <button id="pages">PAGES</button>
+        <button id="signin">SIGN IN</button>
+        <button id="login">LOGIN</button>
+        <button id="signout">SIGN OUT</button>
+    </div>
+    </div>
+
+     <div class="header-div2">
+        <div>
+            <button id="menu"><img src="arrow-down-s-line.png" alt="arrow"></button>
+            
+        </div>
+        <div>
+          <nav class="header-nav">
+            <a href="#news">News</a>
+            <a href="#trending">Trending</a>
+            <a href="#recents">Recents</a>
+            <button id="notification"><img src="arrow-down-s-line.png" alt="arrow"></button>
+            <!-- <a href="#favourites">Favourites</a>
+            <a href="#contact">Contact</a> -->
+           <!--  <img src="./assets/images/author-1.png" width="48" height="48" alt="profle" class="profile"> -->
         </nav>
+        </div> 
+    </div>
+     
+
     </header>
-    <main class="main">
-        <section id="">
-            <p>🔍:
-            <input type="text" id="input-el">
-            <button id="search-btn">
-                search
-            </button>
-            </p>
+
+    <main class="main" id="main">
+        <section class="searchbar">
+            <div class="search-form container" id="search-form">
+        
+                   <form action="" class="form">
+                <input class="form-input" type="text" placeholder="Explore">
+                <button class="btn btn-form" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+            </form>
+        </section> 
+       <section id="news" class="news">
+        <div>
+           <h2 class="newsh2">
+               <span>LATEST NEWS</span>
+           </h2>
+        </div>
+
+        <div class="latestnews">
+
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+                </div>
+            </div>
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+                </div>
+            </div>
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+                </div>
+            </div>
+                
+       </div>
+       </section>
+   
+        <!-- creatirecents section -->
+        <section id="trending">
+
+            <h2 class="trendingh2">Trending:</h2>
+
+            <!-- creating different posts in trending section -->
+            <section class="grid-container">
+
+                <!-- post 1 -->
+                <div class="trending-articles">
+                    <h3 class="headline">Travel Destinations</h3>
+                    <span class="headline-description">Tokyo is the trending destination this year...</span>
+                        <a href="posts.html">
+                            <img src="img/trending_travel.jpg" alt="Travel" class="trending-photos">
+                            <span>TRAVEL</span>
+                        </a>
+
+                        <p class="data">Most tourists visit <strong >Tokyo</strong> in 2024<br>April 3rd, 2024</p>
+                </div>
+
+                <!-- post 2 -->
+                <div class="trending-articles">
+                    <h3 class="headline">Cute Pet</h3>
+                    <span class="headline-description">Dogs or Cats...</span>
+                        <a href="posts.html">
+                            <img src="img/trending_pets.jpg" alt="Pets" class="trending-photos">
+                            <span>ADOPT ME</span>
+                        </a>
+                    
+                        <p class="data"><strong>Dog</strong> adoption on the rise.<br>April 13th, 2024</p>
+                </div>
+
+                <!-- post 3 -->
+                <div class="trending-articles">
+                    <h3 class="headline">My Dress My Pride</h3>
+                    <span class="headline-description">Many choose the warm way out...</span>
+                    <a href="posts.html">
+                        <img src="img/trending_fashion.jpg" alt="Fashion" class="trending-photos">
+                        <span>DIY CROTCHET</span>
+                    </a>
+
+                    <p class="data">Knitwear in winter is so appealing<br>April 25th, 2024</p>
+
+                </div>
+
+                <!-- post 4 -->
+                <div class="trending-articles">
+                    <h3 class="headline">Drawit</h3>
+                    <span class="headline-description">Mind blowing art sales ...</span>
+                    <a href="posts.html">
+                        <img src="img/trending_art.jpg" alt="Art" class="trending-photos">
+                        <span>ARTSY</span>
+                    </a>
+                
+                    <p class="data">Want to make a masterpiece?<br>May 6th, 2024</p>
+                </div>
+
+                <!-- post 5 -->`
+                <div class="trending-articles">
+                    <h3 class="headline">Bookriot</h3>
+                    <span class="headline-description">Be immersed in the world of fiction...</span>
+                    <a href="posts.html">
+                        <img src="img/trending_books.jpg" alt="Books" class="trending-photos">
+                        <span>READS</span>
+                    </a>
+
+                    <p class="data">Which book should I buy!<br>May 8th, 2024</p>
+                </div>
+            </section>
         </section>
-        <section>
-            <h2>Trending:</h2>
-            <figure>
-                <img src="img/doctors.jpg" alt="Doctors Strike Stops">
-                <img src="img/floods.jpg" alt="Floods Destroy More Land">
-                <img src="img/schools.jpg" alt="Schools Open On Monday">
-                <img src="img/sports.jpg" alt="">
-                <img src="" alt="">
-            </figure>
+
+        
+
+
+        <section id="recents">
+
+            <div >
+                <h2><span>Recent Posts</span></h2>
+            </div>
+
+
+            <!-- recent blog container -->
+            <div class="recent-container">
+
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
+                    </div>
+                    <div class="recent-text">
+                        <span> 18 july web design</span>
+                        <a href="#" class="recent-title">best food looks 2024</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
+                    </div>
+                    <div class="recent-text">
+                        <span> 18 july web design</span>
+                        <a href="#" class="recent-title">best food looks 2024</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
+                    </div>
+                </div>
+
+                <div class="recent-box">
+                    <div class="recent-img">
+                        <img src="img/tacos.png" alt="recent">
+                    </div>
+                    <div class="recent-text">
+                        <span> 18 july web design</span>
+                        <a href="#" class="recent-title">best food looks 2024</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus doloremque accusamus voluptate. Dolorum in ipsa, illum, rerum illo, perspiciatis distinctio iste fugiat ex nobis quos ullam repudiandae numquam fuga nesciunt.</p>
+                    </div>
+                </div>
+            </div>
+
         </section>
-        <section>
-            <h2>Featured:</h2>
-            <figure>
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-                <img src="" alt="">
-            </figure>
-        </section>
+
     </main>
+
     <footer id="footer" class="footer">
-        <section>
+        <div class="footercontainer">
+
+        <div class=footeritem1>
+        <a href="#"><h2>TWELVE</h2></a>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat animi, accusamus cumque officiis quasi voluptas velit obcaecati, dolorum ipsam dolores quia. Quae delectus neque dolore ipsum placeat nesciunt, ut ullam?</p>
+    </div>
+    
+    <div class="suggestions"><h2>Suggestions</h2>
+        <ul class="footer-list">
+
+            <li><a href="#">Food</a></li>
+
+            <li><a href="#">Devices</a></li>
+
+            <li><a href="#">Technology</a></li>
+
+            <li><a href="#">Business</a></li>
+
+            <li><a href="#">Travel</a></li>
+        </ul>
+    </div>
+
+    <div class="company"><h2>Company</h2>
+    <ul class="footer-list">
+        <li><a href="#">Contact us</a></li>
+
+        <li><a href="#">F.A.Q</a></li>
+
+        <li><a href="#">Careers</a></li>
+
+        <li><a href="#">Authors</a></li>
+
+        <li><a href="#">Membership</a></li>
+    </ul>
+    </div>
+</div>
+    <hr class="hrwidth">
+
+    <div class="social media">
+        
+        <a href="#"><i class="fab fa-instagram"></i></a>
+
+        <a href="#"><i class="fab fa-facebook"></i></a>
+
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+
+        <a href="#"><i class="fab fa-twitter"></i></a>
+    </div>
+        <section class="center">
+
+
             <nav>
                 <a href="#login" >Log in</a>
                 <a href="#signup">Sign up</a>
                 <a href="#blogger.com">Back To Top</a>
             </nav>
         </section>
-        <p>Copyright &copy;Bloggers</p>
+
+
+
+        <div class="copyright">
+        <p>Copyright &copy;Twelve</p>
         <p>All rights reserved</p>
+        </div>
+
+
     </footer>
 </body>
 </html>

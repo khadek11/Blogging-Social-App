@@ -1,0 +1,175 @@
+html {
+    background-color: papayawhip;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 95%;
+    margin:auto;
+    /* background-image: url("/img/aditya-chinchure-bpWkOlziTgw-unsplash\ \(1\).jpg"); */
+}
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 8px;
+    background-color: gold;
+    position: sticky;
+    z-index: 100;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+.header-div1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.header-a {
+    font-weight: 700;
+}
+.header-a:hover,
+.header-a:active {
+    color: grey;
+}
+
+.header-div2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0, 5px;
+    margin: 0, 5px;
+}
+
+.home {
+    font-size: 42px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900px;
+    color: black;
+}
+
+.searchbar {
+    width: 90%;
+    min-width: 60%;
+    height: auto;
+    z-index: 100;
+    position: fixed;
+}
+
+.news {
+    color: whitesmoke;
+    min-height: 100vh;
+}
+
+.breakingnews {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstnews{
+    border: 2px solid goldenrod;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    background: white;
+}
+
+/* recents-------------------*/
+
+#recents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px;
+    border-bottom: 1px solid #333;
+}
+
+.recent-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.recent-heading span{
+    color: blueviolet;
+}
+.blog-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    flex-wrap: wrap;
+}
+
+
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.image-text {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+.image-test span{
+    color: darkorange;
+  }
+.blog-box{
+    width: 350px; ;
+    background-color:whitesmoke ;
+    border: 1px solid white;
+    margin: 20px;
+}
+.blog-img{
+    width: 100%;
+    height: 200px; ;
+}
+.blog-img img{
+    width:100% ;
+    height:100% ;
+    object-fit:cover ;
+    object-position: center;
+}
+.blog-text{
+    padding: 30px;
+    display: flex;
+    flex-direction:column;
+}
+.blog-text span{
+    color: rgb(12, 12, 12);
+    font-size: 0.9rem;
+}
+.blog-text .blog-title:hover{
+    color: darkred;
+    transition: all ease 0.3s;
+}
+.blog-text p{
+    color: rgb(20, 19, 18);
+    font-size: 0.9rem;
+}

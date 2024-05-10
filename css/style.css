@@ -175,4 +175,17 @@ header {
 .recent-text p{
     color: rgb(20, 19, 18);
     font-size: 0.9rem;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.recent-text a{
+    color: black;
+}
+.recent-text a:hover{
+    color: orangered;
+    transition: all ease 0.3s;
 }

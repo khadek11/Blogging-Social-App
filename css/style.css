@@ -1,9 +1,13 @@
-
-body {
+html {
+    background-color: papayawhip;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 70%;
+}
+body {
+    width: 95%;
+    margin:auto;
+    /* background-image: url("/img/aditya-chinchure-bpWkOlziTgw-unsplash\ \(1\).jpg"); */
 }
 
 header {
@@ -14,10 +18,11 @@ header {
     background-color: gold;
     position: sticky;
     z-index: 100;
-    border: 5px solid white;
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-.header__div1 {
+.header-div1 {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -26,13 +31,29 @@ header {
     margin-bottom: 10px;
 }
 
-.header__div2 {
+.header-a {
+    font-weight: 700;
+}
+.header-a:hover,
+.header-a:active {
+    color: grey;
+}
+
+.header-div2 {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center;  
     margin-top: 5px;
     margin-bottom: 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0, 5px;
+    margin: 0, 5px;
 }
 
 .home {
@@ -40,28 +61,33 @@ header {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900px;
     color: black;
-    
 }
+
 .searchbar {
     width: 90%;
-    max-width: 100%;
+    min-width: 60%;
     height: auto;
-    background-color: gold;
     z-index: 100;
     position: fixed;
 }
 
 .news {
-    background-image: url("/img/aditya-chinchure-bpWkOlziTgw-unsplash\ \(1\).jpg");
-    width: 100%;
-    min-height: 100vh;
-    background-size: cover;
     color: whitesmoke;
+    min-height: 100vh;
 }
 
 .breakingnews {
     display: flex;
     flex-direction: row;
+}
+
+.firstnews{
+    border: 2px solid goldenrod;
+    margin: 20px;
+    width: 350px;
+    height: 350px;
+    background: white;
+}
 
 /* recents-------------------*/
 
@@ -91,14 +117,9 @@ header {
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
-  
-.firstnews {
-    border: 2px solid goldenrod;
-    margin: 20px;
-    width: 350px;
-    height: 350px;
-    background: white;
 }
+
+
 
 .img {
     width: 100%;

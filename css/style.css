@@ -119,6 +119,9 @@ header {
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
 
 }
 
@@ -148,25 +151,37 @@ header {
     background-color:whitesmoke ;
     border: 1px solid white;
     margin: 20px;
+    border-radius: 30px;
 }
 .recent-img{
     width: 100%;
-    height: 200px; ;
+    height: 200px; 
+    
 }
 .recent-img img{
     width:100% ;
     height:100% ;
     object-fit:cover ;
     object-position: center;
+    border-radius: 25px;
 }
 .recent-text{
     padding: 30px;
     display: flex;
     flex-direction:column;
+    font-family:  Calibri;
 }
 .recent-text span{
     color: rgb(12, 12, 12);
     font-size: 0.9rem;
+    font-family: Times New Roman;
+    font-style: italic;
+}
+.recent-title{
+    font-family: Lucida Sans Unicode;
+    font-size: large;
+    color: black;
+    font-weight: bold;
 }
 .recent-text .recent-title:hover{
     color: darkred;
@@ -188,4 +203,9 @@ header {
 .recent-text a:hover{
     color: orangered;
     transition: all ease 0.3s;
+}
+
+/* footer styling */
+#footer{
+    background-color: aqua;
 }

@@ -55,12 +55,21 @@ header {
     padding: 0, 5px;
     margin: 0, 5px;
 }
+.header-nav a{
+    padding-left: 8px;
+    font-size: 32;
+    font-weight: bold;
+}
 
 .home {
     font-size: 42px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 900px;
     color: black;
+}
+.search{
+    display: flex;
+    justify-content: center;
 }
 
 .searchbar {
@@ -74,9 +83,11 @@ header {
 .news {
     color: whitesmoke;
     min-height: 100vh;
+    background-image: url("/img/aditya-chinchure-bpWkOlziTgw-unsplash\ \(1\).jpg");
+    background-size: cover;
 }
 
-.breakingnews {
+.latestnews {
     display: flex;
     flex-direction: row;
 }

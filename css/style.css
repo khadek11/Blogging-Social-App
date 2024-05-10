@@ -98,25 +98,28 @@ header {
     flex-direction: column;
     padding: 40px;
     border-bottom: 1px solid #333;
+
 }
 
-.recent-heading{
+.recent-h2{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: 600;
+    font-family: Calibri;
 }
-.recent-heading span{
+.recent-h2 span{
     color: blueviolet;
 }
-.blog-container{
+.recent-container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+
 }
 
 
@@ -140,36 +143,36 @@ header {
 .image-test span{
     color: darkorange;
   }
-.blog-box{
-    width: 350px; ;
+.recent-box{
+    width: 250px; 
     background-color:whitesmoke ;
     border: 1px solid white;
     margin: 20px;
 }
-.blog-img{
+.recent-img{
     width: 100%;
     height: 200px; ;
 }
-.blog-img img{
+.recent-img img{
     width:100% ;
     height:100% ;
     object-fit:cover ;
     object-position: center;
 }
-.blog-text{
+.recent-text{
     padding: 30px;
     display: flex;
     flex-direction:column;
 }
-.blog-text span{
+.recent-text span{
     color: rgb(12, 12, 12);
     font-size: 0.9rem;
 }
-.blog-text .blog-title:hover{
+.recent-text .recent-title:hover{
     color: darkred;
     transition: all ease 0.3s;
 }
-.blog-text p{
+.recent-text p{
     color: rgb(20, 19, 18);
     font-size: 0.9rem;
 }

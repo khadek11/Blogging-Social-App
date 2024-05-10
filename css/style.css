@@ -53,7 +53,7 @@
 .blog-text{
     padding: 30px;
     display: flex;
-    flex-direction:column ;
+    flex-direction:column;
 }
 .blog-text span{
     color: rgb(12, 12, 12);
@@ -64,6 +64,6 @@
     transition: all ease 0.3s;
 }
 .blog-text p{
-    color: antiquewhite;
+    color: rgb(20, 19, 18);
     font-size: 0.9rem;
 }

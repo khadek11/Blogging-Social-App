@@ -3,34 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <title>BloggerApp</title>
+    <meta name="" content="Group12-Blogging Social App">
+    <meta name="description" content="This is a blogging social app to allow users to react to">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/blogger_355986.png" type="image/png">
+</head> 
 
-</head>
-<body>
-    <header id="header-el" class="header">
-        <h1 id="h1-el" class="h1">My Blogs</h1>
-        <nav id="nav-el" class="nav">
-            <ul id="ul-el">
-                <li>Sign Up</li>
-                <li>Log In</li>
-            </ul>
+<body
+    <header class="header">
+   <div class="header__div1">
+    <div class="header__a">
+        <a href="#" class="home" id="home"><span>Blogging.com</span></a>
+    </div>
+    <div>
+        <button id="pages">pages</button>
+        <button id="signin" >SIGN IN</button>
+        <button id="login">LOGIN</button>
+        <button id="signout">SIGN OUT</button>
+    </div>
+    </div>
+
+    <!-- <div class="header_div2">
+        <div>
+            <button id="profiles"></button>
+            <button id="notification"></button>
+        </div>
+        <div>
+          <nav class="header__nav">
+            <a href="#topics">Topics</a>
+            <a href="#recents">Recents</a>
+            <a href="#trendings">Trendings</a>
+            <a href="#favourites">Favourites</a>
+            <a href="#contactt">Contact</a>
+           <!--  <img src="./assets/images/author-1.png" width="48" height="48" alt="profle" class="profile-banner">*/
+           -->
         </nav>
+        </div> -->
+    </div>
     </header>
 
-
-    <main class="main">
-        <section id="">
-            <p>🔍:
-            <input type="text" id="input-el">
-            <button id="search-btn">
-                search
-            </button>
-            </p>
-        </section>
-
+    <main class="main" id="main">
+       <!--  <section class="searchbar">
+            <div class="search-form-container container" id="search-form-container">
         
+                    <form action="" class="form">
+                        <input class="form-input" type="text" placeholder="What are you looking for?">
+                            <button class="search-icon" id="search-icon"><img src="search.png" alt=""searchicon height="15" width="15"></button>
+                    </form>
+                   
+        </section> -->
+       <section id="current-news" class="news">
+        <div>
+           <h2 class="news__h2">
+               <span>LATEST NEWS</span>
+           </h2>
+           </div>
+
+        <div class="breakingnews">
+
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+                </div>
+            </div>
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+                </div>
+            </div>
+            <div class="firstnews">
+                <img class="img" src="/img/siora-photography-Rm6Z-SfMOkw-unsplash.jpg" alt="First image">
+                <div class="image-text"> 
+                  <span>Corana Virus Outbreak</span>
+                  <p>Corona virus killed so many people.Migration was stopped and people had to stay indoors</p>
+              </div>
+            </div>
+                
+       </div>
+       </section>
+   
         <!-- creating the trending section -->
         <article id="trending">
 

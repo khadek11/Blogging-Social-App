@@ -24,7 +24,7 @@ function addComment() {
     newComment.textContent = commentText;
     commentsDiv.appendChild(newComment);
 
-    // Clear the input field after adding the comment
+    
     commentInput.value = '';
   }
 }

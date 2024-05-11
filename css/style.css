@@ -71,6 +71,10 @@ header {
     display: flex;
     justify-content: center;
 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 .searchbar {
     width: 90%;
     min-width: 60%;
@@ -219,7 +223,15 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
-    justify-content:space-evenly;
+
+
+    align-items: center;
+    margin: 20px 0px;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
     gap: 5px;
 }
 
@@ -231,6 +243,12 @@ width: 350px;
 color: rgb(23, 37, 51);
 }
 
+
+.div p {
+    background-color: antiquewhite;
+}
+
+
 .headline-description {
     color:rgb(2, 61, 64)
 }
@@ -239,9 +257,11 @@ color: rgb(23, 37, 51);
     text-decoration: none;
 }
 
+
 .trending-link :hover {
     opacity: 50;
 }
+
 
 .trending-photos {
     box-sizing: border-box;
@@ -266,6 +286,7 @@ color: rgb(23, 37, 51);
 }
 
 
+
     display: -webkit-box;
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
@@ -273,6 +294,7 @@ color: rgb(23, 37, 51);
     text-overflow: ellipsis;
     margin: 20px 0px;
 }
+
 .recent-text a{
     color: black;
 }
@@ -349,6 +371,7 @@ color: rgb(23, 37, 51);
 
 }
 .copyright{
+
     
 }
 
@@ -390,5 +413,66 @@ color: rgb(23, 37, 51);
 
 }
 .button {
+
+
+}
+
+.blogpost{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blognews{
+    min-height: 100vh;
+    max-width: 90%;
+}
+
+.blogpost {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.blog-img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+}
+
+.firstnews h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.blog-content p {
+  font-size: 16px;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+#commentInput {
+  width: 70%;
+  padding: 5px;
+}
+
+#comments {
+  margin-top: 10px;
+}
+
+html .blog {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: papayawhip;
+}
+
+.blog {
+    width: 80%;
+    margin: auto;
+    text-align: left;
 
 }

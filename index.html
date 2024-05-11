@@ -21,10 +21,13 @@
         <a href="#" class="home" id="home"><span>Twelve.com</span></a>
     </div>
     <div>
+
+        <button id="signup"><a href="css/form.html">SiGN UP</a></button>
+        <button id="login"><a href="css/login.html">LOGIN</a></button>
+
         <button id="pages">PAGES</button>
-        <button id="signup">SIGN UP</button>
-        <button id="login">LOGIN</button>
         <button id="signout">SIGN OUT</button>
+
     </div>
     </div>
 
@@ -52,16 +55,27 @@
     <main class="main" id="main">
         <section class="searchbar">
             <div class="search">
-            <div class="search-form container" id="search-form">
+
+            <div class="search-container" id="search-form">
+
+
         
                    <form action="" class="form">
-                <input class="form-input" type="text" placeholder="Explore">
-                <button class="btn btn-form" type="submit">
+                <input class="form-input" type="text" placeholder="Explore" id="search-input">
+                <button class="btn" type="submit" id="search-btn">
                     <i class="ri-search-line"></i>
                 </button>
             </form>
+
+            </div>
+            <div id="search-results">
+                 
+            </div>
         </div>
+
+
         </section> 
+
        <section id="news" class="news">
         <div>
            <h2 class="newsh2">
@@ -109,9 +123,11 @@
 
                 <!-- post 1 -->
                 <div class="trending-articles">
+
                     <h3 class="headline">Destinations</h3>
                     <a href="posts.html" class="trending-link">
                         <img class="trending-photos slide" src="img/trending_travel.jpg" alt="Travel">
+
                     </a>
 
                     <p class="data">Most tourists visit <strong >Tokyo</strong> in 2024<br>April 3rd, 2024<br>
@@ -123,19 +139,26 @@
                 <div class="trending-articles">
                     <h3 class="headline">Adopt Me</h3>
                     <a href="posts.html" class="trending-link">
+
                          <img class="trending-photos slide" src="img/trending_pets.jpg" alt="Pets">
+
                     </a>
                     
                      <p class="data"><strong>Dog</strong> adoption on the rise.<br>April 13th, 2024 <br>
                       <span class="headline-description">Dogs or Cats...</span>
                      </p>
                 </div>
+            </section>
 
+            
+            <section class="grid-container">
                 <!-- post 3 -->
                 <div class="trending-articles">
+
                     <h3 class="headline">DIY</h3>
                 <a href="posts.html" class="trending-link">
                     <img class="trending-photos slide" src="img/trending_fashion.jpg" alt="Fashion">
+
                 
                 </a>
 
@@ -149,7 +172,9 @@
                 <div class="trending-articles">
                     <h3 class="headline">Artsy</h3>
                     <a href="posts.html" class="trending-link">
+
                         <img class="trending-photos slide" src="img/trending_art.jpg" alt="Art">
+
                     </a>
                 
                     <p class="data">Want to make a masterpiece?<br>May 6th, 2024 <br>
@@ -161,7 +186,9 @@
                 <div class="trending-articles">
                     <h3 class="headline">Bookriot</h3>
                     <a href="posts.html" class="trending-link">
+
                         <img class="trending-photos slide" src="img/trending_books.jpg" alt="Books">
+
                     </a>
 
                     <p class="data">Which book should I buy!<br>May 8th, 2024 <br>

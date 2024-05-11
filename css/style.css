@@ -70,8 +70,10 @@ header {
 .search{
     display: flex;
     justify-content: center;
+
     font-family: 'Courier New', Courier, monospace;
 }
+
 
 .searchbar {
     width: 90%;
@@ -221,6 +223,8 @@ header {
     box-sizing: border-box;
     display: flex;
     flex-direction: row;
+
+
     align-items: center;
     margin: 20px 0px;
     justify-content: center;
@@ -239,9 +243,11 @@ width: 350px;
 color: rgb(23, 37, 51);
 }
 
+
 .div p {
     background-color: antiquewhite;
 }
+
 
 .headline-description {
     color:rgb(2, 61, 64)
@@ -249,6 +255,11 @@ color: rgb(23, 37, 51);
 
 .trending-link {
     text-decoration: none;
+}
+
+
+.trending-link :hover {
+    opacity: 50;
 }
 
 
@@ -275,7 +286,15 @@ color: rgb(23, 37, 51);
 }
 
 
-    
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+
 .recent-text a{
     color: black;
 }
@@ -353,6 +372,49 @@ color: rgb(23, 37, 51);
 }
 .copyright{
 
+    
+}
+
+.main-form {
+      background-color: beige;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+}
+.section-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    width: 350px;
+    height:200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+}
+.email {
+    
+}
+.password {
+
+}
+.button {
+
+
 }
 
 .blogpost{
@@ -412,4 +474,5 @@ html .blog {
     width: 80%;
     margin: auto;
     text-align: left;
+
 }

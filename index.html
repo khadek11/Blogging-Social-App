@@ -9,6 +9,7 @@
     <meta name="social app" content="Group12-Blogging Social App">
     <meta name="description" content="This is a blogging social app to allow users to react to">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"> 
     <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/blogger_355986.png" type="image/png">
     <script src="index.js"></script>
@@ -21,22 +22,48 @@
         <a href="#" class="home" id="home"><span>Twelve.com</span></a>
     </div>
     <div>
-
         <button id="signup"><a href="css/form.html">SiGN UP</a></button>
+
         <button id="login"><a href="css/login.html">LOGIN</a></button>
 
-        <button id="pages">PAGES</button>
-        <button id="signout">SIGN OUT</button>
 
     </div>
     </div>
 
      <div class="header-div2">
         <div>
-            <button id="menu"><img src="arrow-down-s-line.png" alt="arrow"></button>
-            <button id="notification"><img src="arrow-down-s-line.png" alt="arrow"></button>
-            
-        </div>
+            <button class="btn-menu" id="btn-menu">
+                dropdown
+                <i class="bx bx-chevron-down" id="arrow-menu"></i>
+              </button>
+            <div class="dropdown show" id="dropdown">
+                <a href="#create">
+                  <i class="bx bx-plus-circle"></i>
+                  Create New
+                </a>
+                <a href="#draft">
+                  <i class="bx bx-book"></i>
+                  All Drafts
+                </a>
+                <a href="#move">
+                  <i class="bx bx-folder"></i>
+                  Move To
+                </a>
+                <a href="#profile">
+                  <i class="bx bx-user"></i>
+                  Profile Settings
+                </a>
+                <a href="#notification">
+                  <i class="bx bx-bell"></i>
+                  Notification
+                </a>
+                <a href="#settings">
+                  <i class="bx bx-cog"></i>
+                  Settings
+                </a>
+              </div>
+            </div> 
+    
         <div>
           <nav class="header-nav">
             <a href="#news">News</a>
@@ -58,13 +85,9 @@
 
             <div class="search-container" id="search-form">
 
-
-        
-                   <form action="" class="form">
+                   <form action="" class="form-form">
                 <input class="form-input" type="text" placeholder="Explore" id="search-input">
-                <button class="btn" type="submit" id="search-btn">
-                    <i class="ri-search-line"></i>
-                </button>
+                <button class="btn" type="submit" id="search-btn"><i class="ri-search-line"></i></button>
             </form>
 
             </div>

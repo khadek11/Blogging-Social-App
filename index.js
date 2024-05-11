@@ -20,7 +20,7 @@ const toggleDropdown = function () {
 /*sign up*/
 var signUp = document.getElementById("signup")
 signUp.addEventListener("click", function() {
-    window.location.href = "css/form.html";
+    window.location.href = "form.html";
 
 })
 
@@ -39,7 +39,7 @@ signUp.addEventListener("click", function() {
     /* login in*/
     var logIn = document.getElementById("login")
     Login.addEventListener("click", function() {
-        window.location.href = "css/login.html";
+        window.location.href = "login.html";
     
     })
     

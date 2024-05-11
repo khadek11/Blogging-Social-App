@@ -70,7 +70,6 @@ header {
 .search{
     display: flex;
     justify-content: center;
-}
 
 .searchbar {
     width: 90%;
@@ -109,25 +108,31 @@ header {
     flex-direction: column;
     padding: 40px;
     border-bottom: 1px solid #333;
+
 }
 
-.recent-heading{
+.recent-h2{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: 600;
+    font-family: Calibri;
 }
-.recent-heading span{
+.recent-h2 span{
     color: blueviolet;
 }
-.blog-container{
+.recent-container{
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 20px 0px;
     flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
+
 }
 
 
@@ -151,36 +156,239 @@ header {
 .image-test span{
     color: darkorange;
   }
-.blog-box{
-    width: 350px; ;
+.recent-box{
+    width: 250px; 
     background-color:whitesmoke ;
     border: 1px solid white;
     margin: 20px;
+    border-radius: 30px;
 }
-.blog-img{
+.recent-img{
     width: 100%;
-    height: 200px; ;
+    height: 200px; 
+    
 }
-.blog-img img{
+.recent-img img{
     width:100% ;
     height:100% ;
     object-fit:cover ;
     object-position: center;
+    border-radius: 25px;
 }
-.blog-text{
+.recent-text{
     padding: 30px;
     display: flex;
     flex-direction:column;
+    font-family:  Calibri;
 }
-.blog-text span{
+.recent-text span{
     color: rgb(12, 12, 12);
     font-size: 0.9rem;
+    font-family: Times New Roman;
+    font-style: italic;
 }
-.blog-text .blog-title:hover{
+.recent-title{
+    font-family: Lucida Sans Unicode;
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+.recent-text .recent-title:hover{
     color: darkred;
     transition: all ease 0.3s;
 }
-.blog-text p{
+.recent-text p{
     color: rgb(20, 19, 18);
     font-size: 0.9rem;
+
+}
+
+/* trending styling */
+
+#trending {
+    box-sizing: border-box;
+    margin: none;
+    padding: 1px 5px;
+}
+
+.trendingh2 {
+    font-style: italic;
+}
+
+.grid-container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    gap: 5px;
+}
+
+.trending-articles {
+width: 350px;
+}
+
+.headline {
+color: rgb(23, 37, 51);
+}
+
+.headline-description {
+    color:rgb(2, 61, 64)
+}
+
+.trending-link {
+    text-decoration: none;
+}
+
+.trending-link :hover {
+    opacity: 50;
+}
+
+.trending-photos {
+    box-sizing: border-box;
+    margin: 2px;
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    min-width: 100px;
+    border-radius: 15px;
+}
+
+
+
+.trending-photos:hover {
+    transform: scale(0.9, 1.1);
+}
+
+
+.hr {
+    max-width: 70%;
+    color: powderblue;
+}
+
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
+}
+.recent-text a{
+    color: black;
+}
+.recent-text a:hover{
+    color: orangered;
+    transition: all ease 0.3s;
+}
+
+/* footer styling */
+#footer{
+    background-color: beige;
+    padding: 20px 0;
+    border: 10px;
+    border-radius: 20px;
+}
+.footercontainer{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footeritem1{
+    margin-bottom: 20px;
+}
+.suggestions{
+    margin-bottom: 20px;
+    font-family: Lucida Sans;
+    font-weight: 600;
+}
+.footer-list{
+    list-style: none;
+    padding: 0;
+    font-family: Calibri;
+    
+}
+.footer-list li{
+    margin-bottom: 20px;
+    background-color: rgb(10, 14, 14);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(12, 12, 12);
+    display: flex;
+    text-align: justify;
+}
+.footer-list li a{
+    color: rgb(247, 241, 241);
+    text-decoration: solid;
+    transition: color 0.3s ease;
+    text-align: justify;
+}
+.footer-list li a:hover{
+    color: purple;
+    transition: 0.3s ease;
+
+}
+.company{
+    margin-bottom: 20px;
+
+}
+.hrwidth{
+
+}
+.social media{
+    margin-bottom: 20px;
+}
+.socialmedia a{
+    color: #0f0e0e;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 18px;
+}
+.center{
+
+}
+.copyright{
+    
+}
+
+.main-form {
+      background-color: beige;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+}
+.section-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 12px;
+    position: absolute;
+    width: 350px;
+    height:200px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+}
+.email {
+    
+}
+.password {
+
+}
+.button {
+
 }

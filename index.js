@@ -1,3 +1,4 @@
+
 let currentIndex = 0;
 const slides = document.getElementById("slide");
 
@@ -27,4 +28,13 @@ function prevSlide() {
 }
 document.getElementById('prevBtn').addEventListener('click', prevSlide);
 document.getElementById('nextBtn').addEventListener('click', nextSlide);
+
+
+let signUp = document.getElementById("signup")
+let signOut = document.getElementById("signout")
+let logIn = document.getElementById("login")
+
+signUp.addEventListener("click", signingup() {
+
+})
 

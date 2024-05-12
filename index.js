@@ -6,7 +6,9 @@ signUp.addEventListener("click", function() {
 
 })
 
-    document.getElementById("signup-form").addEventListener("submit", function(event) {event.preventDefault();
+    document.getElementById("signup-form").addEventListener("submit", function(event) 
+{
+        event.preventDefault();
 
         var email = document.getElementById("signup-email").value;
         
@@ -15,7 +17,7 @@ signUp.addEventListener("click", function() {
             return;
         }
 
-    });
+    );
 
 
     /* login in*/
@@ -34,7 +36,7 @@ signUp.addEventListener("click", function() {
                 return;
             }
     
-        });
+        );
     
     // Search functionality
 document.getElementById("search-btn").addEventListener("click", function() {
@@ -119,9 +121,7 @@ let signUp = document.getElementById("signup")
 let signOut = document.getElementById("signout")
 let logIn = document.getElementById("login")
 
-signUp.addEventListener("click", signingup() {
-
-})
+signUp.addEventListener("click", signingup())
 
 
 //js for blog posts

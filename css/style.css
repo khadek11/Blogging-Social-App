@@ -204,7 +204,12 @@ header {
 .recent-text p{
     color: rgb(20, 19, 18);
     font-size: 0.9rem;
-
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 20px 0px;
 }
 
 /* trending styling */
@@ -287,13 +292,8 @@ color: rgb(23, 37, 51);
 
 
 
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    margin: 20px 0px;
-}
+   
+
 
 .recent-text a{
     color: black;
@@ -311,68 +311,56 @@ color: rgb(23, 37, 51);
     border-radius: 20px;
 }
 .footercontainer{
-    max-width: 1200px;
-    margin: 0 auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin: 20px 0px;
     flex-wrap: wrap;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 );
 }
-.footeritem1{
-    margin-bottom: 20px;
+.footerbox{
+    width: 300px; 
+    background-color:whitesmoke ;
+    border: 1px solid white;
+    margin: 30px;
+    border-radius: 30px;
 }
-.suggestions{
-    margin-bottom: 20px;
-    font-family: Lucida Sans;
-    font-weight: 600;
-}
-.footer-list{
+
+
+
+.footer-text{
     list-style: none;
     padding: 0;
     font-family: Calibri;
     
 }
-.footer-list li{
+.footer-text li{
     margin-bottom: 20px;
-    background-color: rgb(10, 14, 14);
     border-radius: 5px;
-    box-shadow: 0 2px 5px rgb(12, 12, 12);
     display: flex;
     text-align: justify;
 }
-.footer-list li a{
-    color: rgb(247, 241, 241);
+.footer-text li a{
+    color: rgb(19, 18, 18);
     text-decoration: solid;
     transition: color 0.3s ease;
-    text-align: justify;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .footer-list li a:hover{
     color: purple;
     transition: 0.3s ease;
 
 }
-.company{
-    margin-bottom: 20px;
 
-}
-.hrwidth{
 
-}
-.social media{
-    margin-bottom: 20px;
-}
-.socialmedia a{
-    color: #0f0e0e;
-    margin-right: 10px;
-    text-decoration: none;
-    font-size: 18px;
-}
-.center{
 
-}
+
 .copyright{
-
-    
+    font-family: calibri;
 }
 
 .main-form {
@@ -405,15 +393,15 @@ color: rgb(23, 37, 51);
     margin: 0 auto;
 }
 
-}
-.email {
+.email { 
+    font-family: clibri;
     
 }
 .password {
-
+    font-family: calibri;
 }
 .button {
-
+    color: green;
 
 }
 

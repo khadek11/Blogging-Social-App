@@ -529,3 +529,55 @@ html .blog {
     transform: rotate(180deg);
     transition: 0.2s ease;
   }
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+    /* Adjustments for smaller screens */
+    .header-div1 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-div2 {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .header-nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .nav-item {
+      display: block;
+      margin: 5px 0;
+    }
+  
+    .btn-menu {
+      margin: 10px 0;
+    }
+  
+    .dropdown {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .trending-articles {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .trending-articles img {
+      width: 100%;
+    }
+  
+    .recent-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .recent-box {
+      width: 100%;
+    }
+  }  

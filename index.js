@@ -31,11 +31,12 @@ signUp.addEventListener("click", function() {
         var email = document.getElementById("signup-email").value;
         
         var password = document.getElementById("signup-password").value;
-                    alert("please fill in all fields.")
+                    if(!email || !password) {
+                        alert("please fill in all fields.");
             return;
         }
 
-    );
+    });
 
 
     /* login in*/
@@ -50,11 +51,13 @@ signUp.addEventListener("click", function() {
             var email = document.getElementById("login-email").value;
             
             var password = document.getElementById("login-password").value;
-                        alert("please fill in all fields.")
-                return;
+            if(!email || !password) {
+                alert("please fill in all fields.");
+    return;
+        
             }
     
-        );
+        });
     
     // Search functionality
 document.getElementById("search-btn").addEventListener("click", function() {
@@ -139,7 +142,7 @@ let signUp = document.getElementById("signup")
 let signOut = document.getElementById("signout")
 let logIn = document.getElementById("login")
 
-signUp.addEventListener("click", signingup())
+signUp.addEventListener("click", function() {} );
 
 
 //js for blog posts
